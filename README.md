@@ -8,7 +8,7 @@ Building accurate classification models requires a deep understanding of feature
 
 In data science classification tasks, using all available features without analysis can lead to model overfitting and inefficiency. We need to determine which biological features (Sepal vs. Petal) provide the distinct signal required to accurately classify the three Iris species (*Setosa, Versicolor, Virginica*). How can we identify the most impactful features and detect potential data quality issues before modeling?
 
-![Dashboard/Main Visual](C:\Users\ahmad\OneDrive\Documents\Learn Data Analysis\Codveda)
+![Dashboard/Main Visual](https://github.com/Syarifudin10/exploratory-data-analysis-iris/blob/main/eda_heatmap.png)
 
 
 ### Methodology: 
@@ -38,7 +38,7 @@ By visualizing the data distributions and relationships, I provided clear eviden
 * **Multicollinearity:** A very high correlation (**0.96**) was found between Petal Length and Petal Width, suggesting redundancy.
 * **Outliers:** Minor outliers were detected in Petal Length but deemed as natural biological variation.
 
-![Correlation Heatmap](C:\Users\ahmad\OneDrive\Documents\Learn Data Analysis\Codveda)
+![Correlation Heatmap](https://github.com/Syarifudin10/exploratory-data-analysis-iris/blob/main/eda_pairplot.png)
 
 
 ### Recommendations: 
